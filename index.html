@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Tokyo</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+
+    <!--Breackpoint para pantallas mayores a 930px-->
+    <link rel="stylesheet" href="./src/tablet-telefono.css" media="(max-width: 900px)"/>
+</head>
+<body class="">
+    <!--Degradado sobre imagen-->
+    <div class="main-gradient">
+        <header class="header">
+            <!--Icono en navbar-->
+            <div class="contenedor-imagen">
+                <img class="" src="./assets/logoKelevo.svg" alt="Logo Kelevo">
+            </div>
+
+            <!--Menu desplegable :hover-->
+            <div class="header__menu">
+                <!--Boton de hamburguesa-->
+                <div class="header__menu--profile">
+                    <img src="./assets/icon_btnHambur.svg" alt="Boton hamburguesa">
+                </div>
+                <div class="header__menu--ul">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Package</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li>
+                            <img class="header__menu--img" src="./assets/icon_btnLupa.svg" alt="Icono de lupa">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="main__texto">
+                <h1 class="main__texto--pricipal">TOKYO</h1>
+                <p class="main__texto--secundario">
+                    Kelevo, creando vida...
+                </p>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer__copy">
+                <p class="footer__copy--principal">
+                    Copyright 2021 | Todos los derechos reservados
+                </p>
+            </div>
+            <div class="footer__iconos">
+                <a href="#" class="icono_facebook">
+                    <img src="./assets/icon_facebook.svg" alt="Icono Facebook">
+                </a>
+                <a href="#" class="icono_instagram">
+                    <img src="./assets/icon_instagram.svg" alt="Icono instagram">
+                </a>
+                <a href="#" class="icono_twitter">
+                    <img src="./assets/icon_twitter.svg" alt="Icono twitter">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
